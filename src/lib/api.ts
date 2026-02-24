@@ -1,5 +1,5 @@
-// Force the API URL to explicitly point to HostGator because Netlify's build environment is sometimes read as 'development'
-export const API_URL = 'https://estampakits.com/gen/api';
+// Use a proxy in Netlify to bypass CORS issues on HostGator
+export const API_URL = '/api';
 
 export interface StyleDNA {
     id: string | number;

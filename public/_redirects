@@ -1,1 +1,5 @@
+# Proxy API to bypass CORS
+/api/* https://estampakits.com/gen/api/:splat 200
+
+# Client-side routing for SPA
 /* /index.html 200
