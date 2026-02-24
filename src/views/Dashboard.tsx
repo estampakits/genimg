@@ -21,8 +21,8 @@ export default function Dashboard() {
                 <div className="relative z-10">
                     <h2 className="text-3xl font-bold text-white mb-2">Bienvenido a La Fórmula</h2>
                     <p className="text-textDim max-w-2xl">
-                        Este es el motor V4.2 con Auto-Deploy CI/CD (Prueba de Fuego). Ahora operando bajo una arquitectura Headless React conectada
-                        directamente a la base de datos MySQL original. Rendimiento nativo, cero recargas.
+                        Este es el motor V4.3 con Auto-Deploy CI/CD (Sincronizado vía Proxy). Ahora operando bajo una arquitectura Headless React conectada
+                        directamente a la base de datos MySQL original. Rendimiento nativo, cero recargas. ✅
                     </p>
                 </div>
                 <div className="absolute right-0 bottom-0 w-96 h-96 bg-primary/10 rounded-full blur-[100px] translate-x-1/3 translate-y-1/3"></div>
