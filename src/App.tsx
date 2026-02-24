@@ -2,10 +2,9 @@ import { Routes, Route, NavLink, useLocation } from 'react-router-dom';
 import { Sparkle, Flask, Swatches, FlowArrow } from '@phosphor-icons/react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-// Mock Views for now
-const Dashboard = () => <div className="p-8 animated-fade-in text-textDim">Dashboard metrics will go here.</div>;
-const StyleDNA = () => <div className="p-8 animated-fade-in text-textDim">Style DNA library.</div>;
-const Laboratorio = () => <div className="p-8 animated-fade-in text-textDim">The Midjourney Lab.</div>;
+import Dashboard from './views/Dashboard';
+import StyleDNA from './views/StyleDNA';
+import Laboratorio from './views/Laboratorio';
 
 export default function App() {
   const location = useLocation();
@@ -20,7 +19,7 @@ export default function App() {
             </div>
             <div>
               <h1 className="text-xl font-bold tracking-tight text-white leading-none">LA FÓRMULA</h1>
-              <p className="text-[10px] text-primary uppercase font-medium tracking-widest mt-0.5">Prompt Engine V4.0</p>
+              <p className="text-[10px] text-primary uppercase font-medium tracking-widest mt-0.5">Prompt Engine V4.3</p>
             </div>
           </div>
 
